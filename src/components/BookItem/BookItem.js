@@ -1,10 +1,7 @@
-import { useContext } from "react"
 import { Link, Outlet } from "react-router-dom"
-import { AuthContext } from "../../context/AuthContext"
 import book from "../../assets/imgs/book.png"
 import "./BookItem.scss"
 export const BookItem = ({e}) =>{
-    const {token}=useContext(AuthContext)
    
     return(
         <li className="bookItem">

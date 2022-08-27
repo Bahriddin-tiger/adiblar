@@ -1,11 +1,9 @@
 import "./Temuriy.scss"
-import { useContext, useEffect } from "react"
+import {  useEffect } from "react"
 import { useState } from "react"
 import axios from "axios"
 import { Item } from "../../components"
-import { AuthContext } from "../../context/AuthContext"
 export const Temuriy = () =>{
-    const {token}=useContext(AuthContext)
     const [temuriylar, setTemuriylar] = useState("")
     useEffect(()=>{
         axios.get('https://book-service-layer.herokuapp.com/author/genreId/1')

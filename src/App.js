@@ -5,8 +5,6 @@ import i18n from "i18next"
 import { initReactI18next } from "react-i18next";
 import { Public } from "./Public";
 import {lang as til} from "./lang/lang"
-import { useContext } from "react";
-import { LangContext } from "./context/LangContext"; 
 i18n.use(initReactI18next).init({
     debug: true,
     fallbackLng: "uz",
@@ -16,12 +14,11 @@ i18n.use(initReactI18next).init({
     resources: {
       en: {translation: til.en},
       uz: {translation: til.uz},
-      ru: {translation: til .ru},
+      ru: {translation: til.ru}
     }
   }
 )
 function App() {
-  const {lang }=useContext(LangContext)
   const {token}= useAuth();
  if(token){
   return(

@@ -3,11 +3,11 @@ import { ThemeContext } from "../../context/ThemeContext"
 import { useContext, useState } from "react"
 import i18next from "i18next"
 import { useTranslation } from 'react-i18next';
-import { LangContext } from "../../context/LangContext";
+// import { LangContext } from "../../context/LangContext";
 
 export const MakePayment = () =>{
     const [state, setState] =useState(false)
-    const {setLang}=useContext(LangContext)
+    // const {setLang}=useContext(LangContext)
     const {theme,setTheme}=useContext(ThemeContext)
     
     const {t}=useTranslation()
@@ -20,7 +20,7 @@ export const MakePayment = () =>{
             </h2>
             <p className="MakePayment-text"></p>
             <select  onChange={(evt)=>(
-                i18next.changeLanguage(evt.target.value),setLang(evt.target.value))} 
+                i18next.changeLanguage(evt.target.value))} 
                  defaultValue={i18next.language}
                  className="MakePayment-select">
                 <option value="en" className="MakePayment-option">{t("Settings.English")}</option>

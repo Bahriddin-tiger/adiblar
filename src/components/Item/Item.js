@@ -1,10 +1,7 @@
-import { useContext } from "react"
 import { Link } from "react-router-dom"
-import { AuthContext } from "../../context/AuthContext"
 import "./Item.scss"
 import adib from "../../assets/imgs/adib.png"
 export const Item = ({e}) =>{
-    const {token}=useContext(AuthContext)
     
     return(
         <li className="item">

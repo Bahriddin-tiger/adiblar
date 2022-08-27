@@ -1,12 +1,11 @@
-import { useContext } from "react"
+
 import { Route, Routes } from "react-router-dom"
 import { Header } from "./components"
-import { ThemeContext } from "./context/ThemeContext"
+
 import {AddAfter, AddBooks, AfterSingle, BookSingle, Home, Iqtibos, Jadid, JadidBook, MakePayment, Muallif, Mustaqillik, MustaqillikBook, MyAccount, Security, Settings, Sovet, Wea, SovetBook, Taqriz, Temuriy, TemuriyBook} from "./pages"
 import {Books} from "./pages"
 import "./Provite.scss"
 export const Private = () =>{
-    const {theme}=useContext(ThemeContext)
     return(
        
           <div>

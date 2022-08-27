@@ -1,13 +1,13 @@
 import axios from "axios";
-import { useContext, useRef } from "react";
+import {  useRef } from "react";
 import SignUpImg from "../../assets/imgs/signup.png"
-import { ThemeContext } from "../../context/ThemeContext";
+// import { ThemeContext } from "../../context/ThemeContext";
 import { useAuth } from "../../Hooks/useAuth";
 import "./SignUp.scss"
 import { useTranslation } from 'react-i18next';
 export const SignUp = () =>{
     const {t}=useTranslation()
-    const {theme}=useContext(ThemeContext)
+    // const {theme}=useContext(ThemeContext)
     const InputEmail= useRef()
     const InputPassword= useRef()
     const InputFirstName= useRef()
