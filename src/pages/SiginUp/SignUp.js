@@ -1,13 +1,13 @@
 import axios from "axios";
-import {  useRef } from "react";
+import {  useContext, useRef } from "react";
 import SignUpImg from "../../assets/imgs/signup.png"
-// import { ThemeContext } from "../../context/ThemeContext";
+import { ThemeContext } from "../../context/ThemeContext";
 import { useAuth } from "../../Hooks/useAuth";
 import "./SignUp.scss"
 import { useTranslation } from 'react-i18next';
 export const SignUp = () =>{
     const {t}=useTranslation()
-    // const {theme}=useContext(ThemeContext)
+    const {theme}=useContext(ThemeContext)
     const InputEmail= useRef()
     const InputPassword= useRef()
     const InputFirstName= useRef()
@@ -33,7 +33,8 @@ export const SignUp = () =>{
           });
     }
     return(
-       <div className="signUp-box">
+       <div className={theme}>
+            <div className="signUp-box">
         <img className="signUp-img" src={SignUpImg} alt="sign up bg img" />
         <div className="signUp-form-box ">
             <h2 className="signUp-title">
@@ -51,6 +52,7 @@ export const SignUp = () =>{
             </button>
         </form>
         </div>
+       </div>
        </div>
     )
 }

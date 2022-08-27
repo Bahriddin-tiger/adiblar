@@ -55,7 +55,7 @@ export const MyAccount = () =>{
   
     return(<div className={theme}>
 <div className="MyAccount-box">
-  <img className="MyAccount-img" src={user} alt="user" />
+{me.image !==null ?  <img className="MyAccount-img" alt=""  width={175} height={175} src={`https://book-service-layer.herokuapp.com/${me.image}`} /> : <img alt="" className="MyAccount-img" width={175} height={175} src={user} />}
   <div className="btn-box">
     <form className="MyAccount-form"  onSubmit={FormSubmit}>
         <h2 className="MyAccount-title">

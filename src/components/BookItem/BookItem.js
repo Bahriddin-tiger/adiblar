@@ -1,8 +1,25 @@
+import axios from "axios"
+import { useContext, useEffect, useState } from "react"
 import { Link, Outlet } from "react-router-dom"
 import book from "../../assets/imgs/book.png"
+import { AuthContext } from "../../context/AuthContext"
 import "./BookItem.scss"
 export const BookItem = ({e}) =>{
-   
+    const {token}=useContext(AuthContext)
+    const [after, setAfter]=useState({})
+    useEffect(()=>{
+        axios.get(`https://book-service-layer.herokuapp.com/author/authorId/${e.author_id}`,{
+            headers:{
+                Authorization:token.token,
+            }
+        })
+        .then(function (response) {
+        setAfter(response.data);
+        })
+        .catch(function (error) {
+          console.log(error);
+        })
+       },[e.author_id,token])
     return(
         <li className="bookItem">
             <Link className="bookItem-link"  to={`/book/bookId/${e.id}`} >
@@ -15,7 +32,8 @@ export const BookItem = ({e}) =>{
                 {e.title} <br />
                 <br />
                 
-                   O'tkir Hoshimov
+                  <span>{after.first_name} </span>
+                  <span>{after.last_name}</span>
                    
                 </h3>
                 <p className="bookItem-date">

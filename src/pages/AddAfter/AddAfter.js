@@ -55,10 +55,10 @@ export const AddAfter = () =>{
             <input  className="AdAfterInput" type='text' name="date_of_death" placeholder={t("AddAuthor.DateOfDeath")}/>
             <input  className="AdAfterInput" type='text' name="country" placeholder={t("AddAuthor.country")} />
             <select  className="AdAfterInput" type='text' name="genre_id"  >
-                <option  defaultValue="1" placeholder="temuriylar">1</option>
-                <option value="2" placeholder="jadid">2</option>
-                <option value="3" placeholder="sovet">3</option>
-                <option value="4" placeholder="Mustaqillik">4</option>
+                <option  defaultValue="1" >Temuriylar</option>
+                <option value="2" >jadid</option>
+                <option value="3" >sovet</option>
+                <option value="4" >Mustaqillik</option>
             </select>
             <textarea className="AdAfterInput textarea" name="bio" placeholder={t("AddBook.description")} />
             <button className="AdAfter-btn" type="submit">

@@ -1,4 +1,4 @@
-.light{
+.dark{
     .MyAccount-box{
     display: flex;
     align-items: flex-start;
@@ -8,6 +8,8 @@
 
 .MyAccount-img{
     margin-right: 70px;
+    border-radius: 50%;
+
 }
 
 .MyAccount-form{
@@ -79,7 +81,7 @@ margin-bottom: 22px;
 }
 }
 
-.dark{
+.light{
         .MyAccount-box{
     display: flex;
     align-items: flex-start;
@@ -89,6 +91,7 @@ margin-bottom: 22px;
 
 .MyAccount-img{
     margin-right: 70px;
+    border-radius: 50%;
 }
 
 .MyAccount-form{
