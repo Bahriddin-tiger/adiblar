@@ -51,7 +51,7 @@ export const Home =() =>{
         {t("Hero.main")}
         </h2>
         <div className="home-div">
-        <NavLink className={({isActive})=>isActive ? "home-active-link ":"homeLink"} to="Temuriy">Temuriylar  {t("Hero.period")} </NavLink>    
+        <NavLink className={({isActive})=>isActive ? "home-active-link ":"homeLink"} to="">Temuriylar  {t("Hero.period")} </NavLink>    
         <NavLink className={({isActive})=>isActive ? "home-active-link":"homeLink"} to="Jadid">Jadid  {t("Hero.literature")} </NavLink>    
         <NavLink className={({isActive})=>isActive ? "home-active-link":"homeLink"} to="Sovet">Sovet  {t("Hero.period")} </NavLink>    
         <NavLink className={({isActive})=>isActive ? "home-active-link":"homeLink"} to="Mustaqillik">Mustaqillik  {t("Hero.period")}</NavLink>    
