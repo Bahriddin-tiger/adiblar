@@ -1,0 +1,352 @@
+.dark{
+    .bookSingle-inner{
+        display: flex;
+        padding: 60px 0;
+    
+    }
+    
+    .single-container{
+        width: 1260px;
+        margin: 0 auto;
+    }
+    
+    .bookSingle-img{
+        width: 510px;
+        height: 810px;
+        border-radius: 15px;
+        margin-right: 56px;
+    }
+    
+    .BookSingle-title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 14px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 53px;
+        color: #C9AC8C;
+    }
+    
+    .bookSingle-text{
+        margin: 0;
+        margin-bottom: 40px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+    }
+    
+    .bookSingle-text span{
+        margin:  0 7px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .page{
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .page span{
+        margin-left: 7px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    
+    .malumot{
+        margin: 48px 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+    }
+    
+    .malumot span{
+        margin-left: 10px;
+        display: inline-block;
+        width: 564px;
+        height: 1px;
+        background-color:rgba(201, 172, 140, 0.6);
+    }
+    
+    .description{
+        margin: 0;
+        padding: 0;
+        height: 276px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 47px;
+    }
+    
+    .format{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+    }
+    
+    .price-wrapper{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .price-box{
+        margin-right: 31px;
+        text-align: center;
+    }
+    
+    .price-box svg{
+        margin-bottom: 10px;
+    }
+    
+    .price-name{
+        margin: 0;
+        margin-bottom: 8px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    
+    .price-narx{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .add{
+        padding: 16px 32px;
+        margin-left: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #3C2710;
+        background-color: #C9AC8C;
+        border: 0;
+    }
+    
+    .we{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 66px;
+    }
+    
+    .we-text{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+        color: #C9AC8C;
+    }
+    
+    .bio-link{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    
+}
+
+.light{
+    .bookSingle-inner{
+        display: flex;
+        padding: 60px 0;
+    
+    }
+    
+    .single-container{
+        width: 1260px;
+        margin: 0 auto;
+        background-color: #555;
+    }
+    
+    .bookSingle-img{
+        width: 510px;
+        height: 810px;
+        border-radius: 15px;
+        margin-right: 56px;
+    }
+    
+    .BookSingle-title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 14px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 53px;
+        color: #C9AC8C;
+    }
+    
+    .bookSingle-text{
+        margin: 0;
+        margin-bottom: 40px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+    }
+    
+    .bookSingle-text span{
+        margin:  0 7px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .page{
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .page span{
+        margin-left: 7px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    
+    .malumot{
+        margin: 48px 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+    }
+    
+    .malumot span{
+        margin-left: 10px;
+        display: inline-block;
+        width: 564px;
+        height: 1px;
+        background-color:rgba(201, 172, 140, 0.6);
+    }
+    
+    .description{
+        margin: 0;
+        padding: 0;
+        height: 276px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 47px;
+    }
+    
+    .format{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+    }
+    
+    .price-wrapper{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .price-box{
+        margin-right: 31px;
+        text-align: center;
+    }
+    
+    .price-box svg{
+        margin-bottom: 10px;
+    }
+    
+    .price-name{
+        margin: 0;
+        margin-bottom: 8px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    
+    .price-narx{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .add{
+        padding: 16px 32px;
+        margin-left: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #3C2710;
+        background-color: #C9AC8C;
+        border: 0;
+    }
+    
+    .we{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 66px;
+    }
+    
+    .we-text{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+        color: #C9AC8C;
+    }
+    
+    .bio-link{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    
+}

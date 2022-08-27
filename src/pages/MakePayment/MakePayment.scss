@@ -1,0 +1,209 @@
+.light{
+    .MakePayment-box{
+        width: 1200px;
+        padding: 86px 249px 281px 249px;
+        background-color: #555;
+    }
+    
+    .MakePayment{
+        width: 708px;
+    
+    }
+    
+    .MakePayment-title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 32px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #fff;
+    }
+    
+    .MakePayment-text{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 7px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #fff;
+    }
+    
+    .MakePayment-select{
+        width: 100%;
+        border: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 21px;
+         color: #191919;
+         margin-bottom: 3px;
+         background: #fff;
+         border-radius: 4px;
+    }
+    
+    .MakePayment-p{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+        opacity: 0.8;
+    }
+    
+    .MakePayment-strong{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #fff;
+    }
+    
+    .MakePayment-btn{
+        text-align: right;
+        margin-bottom: 44px;
+        width: 87px;
+        
+        height: 30px;
+        background: #555;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 34px;
+    }
+    
+    .btn-span{
+        display: inline-block;
+        
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #3699FF;
+    }
+    
+    .security-btn{
+       
+        margin-left: auto;
+        padding: 12px 20px 11px 26px;
+        background: #191919;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        color: #fff;
+    }
+    
+    .security-btn-box{
+        text-align: right;
+    }
+    
+}
+
+.dark{
+    .MakePayment-box{
+        width: 1200px;
+        padding: 86px 249px 281px 249px;
+        background-color: #fff;
+    }
+    
+    .MakePayment{
+        width: 708px;
+    
+    }
+    
+    .MakePayment-title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 32px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #212121;
+    }
+    
+    .MakePayment-text{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 7px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #464E5F;
+    }
+    
+    .MakePayment-select{
+        width: 100%;
+        border: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 21px;
+         color: #464E5F;
+         margin-bottom: 3px;
+         background: #F3F6F9;
+         border-radius: 4px;
+    }
+    
+    .MakePayment-p{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #B5B5C3;
+        opacity: 0.8;
+    }
+    
+    .MakePayment-strong{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #464E5F;
+    }
+    
+    .MakePayment-btn{
+        text-align: right;
+        margin-bottom: 44px;
+        width: 87px;
+        
+        height: 30px;
+        background: #F3F6F9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 34px;
+    }
+    
+    .btn-span{
+        display: inline-block;
+        
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #3699FF;
+    }
+    
+    .security-btn{
+       
+        margin-left: auto;
+        padding: 12px 20px 11px 26px;
+        background: #152540;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    
+    .security-btn-box{
+        text-align: right;
+    }
+    
+}

@@ -1,0 +1,173 @@
+.light{
+    .security-box{
+        width: 1200px;
+        padding-top: 86px;
+        padding-bottom: 109px;
+        background-color: #555;
+        }
+        
+        .security-form{
+            margin: 0 auto;
+        
+            width: 708px;
+        
+        }
+        
+        .security-title{
+            margin: 0;
+            margin-bottom: 32px;
+            padding: 0;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #fff;
+        }
+        
+        .security-text{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 7px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            color: #fff;
+        }
+        
+        .security-input{
+            width: 100%;
+            margin-bottom: 3px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 20px;
+            background: #F3F6F9;
+            border-radius: 4px;
+        }
+        
+        .security-span{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #B5B5C3;
+            opacity: 0.8;
+        }
+        
+        .security-div{
+            margin-bottom: 22px;
+        }
+        
+        .security-password{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 44px;
+        padding-bottom: 44px;
+        border-bottom: 1px solid #ECF0F3;
+        }
+        
+        .security-min{
+            width: 304px;
+        }
+        
+        .security-btn{
+           border: 0;
+            margin-left: auto;
+            padding: 12px 20px 11px 26px;
+            background: #191919;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+        
+        .security-btn-box{
+            text-align: right;
+        }
+}
+
+.dark{
+    .security-box{
+        width: 1200px;
+        padding-top: 86px;
+        padding-bottom: 109px;
+        background-color: #fff;
+        }
+        
+        .security-form{
+            margin: 0 auto;
+        
+            width: 708px;
+        
+        }
+        
+        .security-title{
+            margin: 0;
+            margin-bottom: 32px;
+            padding: 0;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #212121;
+        }
+        
+        .security-text{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 7px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            color: #464E5F;
+        }
+        
+        .security-input{
+            width: 100%;
+            margin-bottom: 3px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 20px;
+            background: #F3F6F9;
+            border-radius: 4px;
+        }
+        
+        .security-span{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #B5B5C3;
+            opacity: 0.8;
+        }
+        
+        .security-div{
+            margin-bottom: 22px;
+        }
+        
+        .security-password{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 44px;
+        padding-bottom: 44px;
+        border-bottom: 1px solid #ECF0F3;
+        }
+        
+        .security-min{
+            width: 304px;
+        }
+        
+        .security-btn{
+           
+            margin-left: auto;
+            padding: 12px 20px 11px 26px;
+            background: #152540;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+        
+        .security-btn-box{
+            text-align: right;
+        }
+}

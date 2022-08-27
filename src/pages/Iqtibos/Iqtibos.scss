@@ -1,0 +1,148 @@
+.dark{
+    
+.iqtibos-container{
+    width: 1440px;
+    padding: 20px 78px;
+    margin: 0 auto;
+    background-color: #191919;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.iqtibos-inner{
+   display: flex;
+   align-items: center;
+   height: 241px; 
+   justify-content: space-between;
+}
+
+.iqtibos-wrapper{
+    width: 708px;
+    height: 250px;
+    position: relative;
+    padding-right: 70px;
+    padding-top: 46px;
+    padding-bottom: 74px;
+    padding-left: 40px;
+    background: linear-gradient(263.94deg, #161616 0%, #1E1E1E 98.06%);
+    border-radius: 15px;
+}
+
+.iqtibos-wrapper::before{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:0;
+    left: 0;
+    background-image: url("../../assets/imgs/icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.iqtibos-wrapper::after{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right:calc(0% - 70px);
+    bottom: 0;
+    background-image: url("../../assets/imgs/iqtibos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.img-box {
+    text-align: right;
+}
+
+.img-box svg{
+    margin-left: 15px;
+}
+
+.iqtibos-text{
+    margin: 0;
+    padding: 0;
+    width: 566px;
+    padding-right: 62px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #FFFFFF;
+}
+}
+.light{
+
+    
+.iqtibos-container{
+    width: 1440px;
+    padding: 20px 78px;
+    margin: 0 auto;
+    background-color: #555;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.iqtibos-inner{
+   display: flex;
+   align-items: center;
+   height: 241px; 
+   justify-content: space-between;
+}
+
+.iqtibos-wrapper{
+    width: 708px;
+    height: 250px;
+    position: relative;
+    padding-right: 70px;
+    padding-top: 46px;
+    padding-bottom: 74px;
+    padding-left: 40px;
+    background: linear-gradient(263.94deg, #555 0%, #1E1E1E 98.06%);
+    border-radius: 15px;
+}
+
+.iqtibos-wrapper::before{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:0;
+    left: 0;
+    background-image: url("../../assets/imgs/icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.iqtibos-wrapper::after{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right:calc(0% - 70px);
+    bottom: 0;
+    background-image: url("../../assets/imgs/iqtibos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.img-box {
+    text-align: right;
+}
+
+.img-box svg{
+    margin-left: 15px;
+}
+
+.iqtibos-text{
+    margin: 0;
+    padding: 0;
+    width: 566px;
+    padding-right: 62px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #FFFFFF;
+}
+     
+}

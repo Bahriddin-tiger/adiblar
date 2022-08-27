@@ -1,0 +1,39 @@
+.bookItem{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 165px;
+    height: 319px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.bookItem-link{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.bookItem-img{
+    width: 164px;
+    height: 246px;
+    margin-bottom: 14px;
+}
+
+.bookItem-title{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #C9AC8C;
+}
+
+.bookItem-date{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+    
+}

@@ -1,0 +1,161 @@
+.light{
+    .MyAccount-box{
+    display: flex;
+    align-items: flex-start;
+    padding: 23px 122px 109px 60px;
+    background-color: #555;
+}
+
+.MyAccount-img{
+    margin-right: 70px;
+}
+
+.MyAccount-form{
+    text-align-last: left;
+    width: 708px;
+    border-bottom: 1px solid #555;
+    margin-bottom: 44px;
+}
+
+.MyAccount-title{
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.input-div{
+margin-bottom: 22px;
+}
+
+.MyAccount-text{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.signInput{
+    background: #fff;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+}
+
+.MyAccount-span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-box{
+    text-align: right;
+}
+
+.MyAccount-btn{
+    margin-left: auto;
+    padding: 12px 20px 11px 26px;
+    background: #152540;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.my-box{
+   display: flex;
+   align-items: center;
+  
+}
+}
+
+.dark{
+        .MyAccount-box{
+    display: flex;
+    align-items: flex-start;
+    padding: 23px 122px 109px 60px;
+    background-color: #fff;
+}
+
+.MyAccount-img{
+    margin-right: 70px;
+}
+
+.MyAccount-form{
+    text-align-last: left;
+    width: 708px;
+    border-bottom: 1px solid #ECF0F3;
+    margin-bottom: 44px;
+}
+
+.MyAccount-title{
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212121;
+}
+
+.input-div{
+margin-bottom: 22px;
+}
+
+.MyAccount-text{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #464E5F;
+}
+
+.signInput{
+    background: #F3F6F9;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #464E5F;
+}
+
+.MyAccount-span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B5B5C3;
+    opacity: 0.8;
+}
+
+.btn-box{
+    text-align: right;
+}
+
+.MyAccount-btn{
+    margin-left: auto;
+    padding: 12px 20px 11px 26px;
+    background: #152540;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.my-box{
+   display: flex;
+   align-items: center;
+  
+}
+}
