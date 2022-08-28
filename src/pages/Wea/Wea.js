@@ -1,11 +1,12 @@
 import "./Wea.scss"
-import {  useEffect } from "react"
+import {  useContext, useEffect } from "react"
 import { useState } from "react"
 import axios from "axios"
 import { Item } from "../../components"
+import { ThemeContext } from "../../context/ThemeContext"
 export const Wea = () =>{
     const [temuriylar, setTemuriylar] = useState("")
-    // const {token}=useContext(AuthContext)
+    const {theme}=useContext(ThemeContext)
     useEffect(()=>{
         axios.get('https://book-service-layer.herokuapp.com/author/genreId/1')
         .then((res)=> setTemuriylar(res.data))
@@ -13,7 +14,7 @@ export const Wea = () =>{
           console.log(error);
         })
     },[])
-    return(<div>
+    return(<div className={theme}>
     
         
         {

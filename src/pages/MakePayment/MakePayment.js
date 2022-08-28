@@ -20,8 +20,9 @@ export const MakePayment = () =>{
             </h2>
             <p className="MakePayment-text"></p>
             <select  onChange={(evt)=>(
-                i18next.changeLanguage(evt.target.value))} 
-                 defaultValue={i18next.language}
+                i18next.changeLanguage(evt.target.value)
+                )} 
+                defaultValue={i18next.language}
                  className="MakePayment-select">
                 <option value="en" className="MakePayment-option">{t("Settings.English")}</option>
                 <option value="uz" className="MakePayment-option">{t("Settings.Uzbek")}</option>

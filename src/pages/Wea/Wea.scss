@@ -1,8 +1,21 @@
-.wea{
-    width: 1440px;
-    padding: 0 78px;
-    margin: 0 auto;
-    background-color: #191919;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+.dark{
+    .wea{
+        width: 1440px;
+        padding: 0 78px;
+        margin: 0 auto;
+        background-color: #191919;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+}
+
+.light{
+    .wea{
+        width: 1440px;
+        padding: 0 78px;
+        margin: 0 auto;
+        background-color: #555;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
 }

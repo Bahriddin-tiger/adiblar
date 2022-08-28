@@ -12,6 +12,7 @@ export const Private = () =>{
              <Header/>
            
             <Routes>
+            
                 <Route path="home" element={<Home/>} >
                     <Route index element={<Temuriy/>} />
                     <Route path="Jadid" element={<Jadid/>} />
