@@ -1,6 +1,6 @@
 
 import { useContext } from "react"
-import {Link} from "react-router-dom"
+import { NavLink, Outlet} from "react-router-dom"
 import { ThemeContext } from "../../context/ThemeContext"
 import "./RegHeader.scss"
 export const RegHeader = () =>{
@@ -8,11 +8,10 @@ const {theme}=useContext(ThemeContext)
 return(
 <div className={theme} >
 <header className="reg-header">
-  <Link className="reg-btn " to='' >SignUp</Link>
-  <Link className="reg-btn " to='/SignIn' >SignIn</Link>
-
+  <NavLink className={({isActive})=>isActive ? "reg-btn" : "reg-btn"} to="" >SignUp</NavLink>
+  <NavLink className={({isActive})=>isActive ? "reg-btn" : "reg-btn"} to="/SignIn">SignIn</NavLink>
 </header>
-
+  <Outlet/>
 </div>
 )
 }

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { AuthContext } from "../../context/AuthContext";
-import boy from "../../assets/imgs/boy.png"
+import boy from "../../assets/imgs/Bahriddin.jpg"
 import { ThemeContext } from "../../context/ThemeContext";
 export const Header = () =>{
     const {t}=useTranslation()

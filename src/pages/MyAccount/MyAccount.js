@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useContext, useEffect, useState } from "react"
-import user from "../../assets/imgs/boy.png"
+import user from "../../assets/imgs/Bahriddin.jpg"
 import { AuthContext } from "../../context/AuthContext"
 import "./MyAccount.scss"
 import { useTranslation } from 'react-i18next';
