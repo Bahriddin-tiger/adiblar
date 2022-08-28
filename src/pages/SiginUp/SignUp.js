@@ -42,7 +42,7 @@ export const SignUp = () =>{
             </h2>
             <p className="signUp-text"> {t("SignUp.text")} <a className="signUp-link" href="signIn" >{t("SignIn.title")}</a> </p>
         <form className="signUp-form" onSubmit={FormSubmit}>
-             <input ref={InputFirstName} className="signInput" type='text' placeholder= {`${t("SignUp.Last")}  ${t("SignUp.Firs")}`} />
+             <input ref={InputFirstName} className="signInput" type='text' placeholder= {`${t("SignUp.Last")}`} />
             <input ref={InputLastName} className="signInput" type='text' placeholder= {t("SignUp.Firs")} />
             <input ref={InputPhone} className="signInput" type='number' placeholder= {t("SignUp.Phone")} />
             <input ref={InputEmail} className="signInput" type='email' placeholder= {t("SignUp.Email")}/>
